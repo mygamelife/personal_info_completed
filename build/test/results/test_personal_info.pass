@@ -1,0 +1,61 @@
+---
+:source:
+  :path: test
+  :file: test_personal_info.c
+:successes:
+- :test: test_age_range_and_return_1
+  :line: 12
+  :message: ''
+- :test: test_age_negative_value_and_return_0
+  :line: 22
+  :message: ''
+- :test: test_age_largest_value_and_return_0
+  :line: 32
+  :message: ''
+- :test: test_height_equal_to_3_and_return_1
+  :line: 42
+  :message: ''
+- :test: test_height_less_than_or_equal_zero_and_return_0
+  :line: 52
+  :message: ''
+- :test: test_telephone_num_range_should_return_1
+  :line: 62
+  :message: ''
+- :test: test_telephone_num_more_than_8_range_should_return_0
+  :line: 71
+  :message: ''
+- :test: test_telephone_num_less_than_8_range_should_return_0
+  :line: 80
+  :message: ''
+- :test: test_telephone_leading_zero_should_return_0
+  :line: 89
+  :message: ''
+- :test: test_firstName_whether_is_empty_or_not_and_return_0
+  :line: 98
+  :message: ''
+- :test: test_firstName_character_buffer_size_and_return_1
+  :line: 107
+  :message: ''
+- :test: test_firstName1_character_buffer_size_and_return_1
+  :line: 116
+  :message: ''
+- :test: test_firstName_character_buffer_size_and_return_0
+  :line: 125
+  :message: ''
+- :test: test_firstName_character_valid_checking_and_return_0
+  :line: 134
+  :message: ''
+- :test: test_firstName_character1_valid_checking_and_return_0
+  :line: 143
+  :message: ''
+- :test: test_firstName_character2_valid_checking_and_return_0
+  :line: 152
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 16
+  :passed: 16
+  :failed: 0
+  :ignored: 0
+:stdout: []
